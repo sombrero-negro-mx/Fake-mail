@@ -67,7 +67,7 @@ enviarDestinoMas(){
 		s)
 			for destino in $(cat destinatarios.txt); 
 				do 
-					curl --data "remitente=$destino && asunto=$asunto && msj=$mensaje && desde=$remitente" https://snmx.000webhostapp.com/send.php
+					curl --data "remitente=$destino && asunto=$asunto && msj=$mensaje && desde=$remitente" http://snmx.000webhostapp.com/send.php
 			done	
 			;;
 		n)
@@ -90,7 +90,7 @@ clear
 		s)
 			for remitente in $(cat remitente.txt); 
 				do 
-					curl --data "remitente=$destino && asunto=$asunto && msj=$mensaje && desde=$remitente" https://snmx.000webhostapp.com/send.php
+					curl --data "remitente=$destino && asunto=$asunto && msj=$mensaje && desde=$remitente" http://snmx.000webhostapp.com/send.php
 			done	
 			;;
 		n)
