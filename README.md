@@ -1,4 +1,4 @@
-# email-spoof-Beta
+#Fake-mail 
 Sistema basico para la realización de Email Spoofing atravez de una cosola bash y un servidor con http
 
 #No_Me_Hago_Responsable_Por_El_Mal_Uso_Que_Se_Le_Pueda_Dar_A_Esta_Aplicación
